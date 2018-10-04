@@ -1,9 +1,9 @@
 package tictactoe;
 
+import java.util.List;
 import java.util.function.Predicate;
 
 import javafx.beans.property.BooleanProperty;
-import javafx.beans.property.Property;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.scene.Node;
 
@@ -16,6 +16,7 @@ public class TicTacToeGame {
 	private Piece[][] pieces;
 	/** Flag for game over. An observable object. */
 	private SimpleBooleanProperty gameOver;
+	
 	
 	private Player nextPlayer = Player.X;
 	

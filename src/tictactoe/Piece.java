@@ -13,7 +13,7 @@ import javafx.scene.text.TextAlignment;
  * 
  * Piece extends StackPane so it can be placed on another pane.
  * 
- * @author jim
+ * @author HarryBoxer
  *
  */
 public class Piece extends StackPane {

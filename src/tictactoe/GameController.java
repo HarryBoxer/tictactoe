@@ -78,6 +78,5 @@ public class GameController {
 	
 	/** Handler for button click to start a new game. */
 	public void handleNewGameEvent(ActionEvent event) {
-		game.startNewGame();
 	}
 }
