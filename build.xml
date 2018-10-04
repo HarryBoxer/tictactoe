@@ -92,7 +92,7 @@
         <jar destfile="dist/TicTacToe.jar"
              basedir="$(build.dir)">
             <manifest>
-                <attribute name="Main-Class" value="tictactoe-HarryBoxer.Main"/>
+                <attribute name="Main-Class" value="tictactoe.Main"/>
             </manifest>
         </jar>
     </target>
